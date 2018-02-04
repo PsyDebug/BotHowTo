@@ -348,6 +348,7 @@ sub new { bless {}, shift }
 
 sub send_msg {
     my ($class,$self,$id,$text)=@_;
+    $text=$text || "try later";
     my $url=$api_url.$self->confapp->{config}->{token}."/sendMessage?chat_id=$id&text=$text"; 
     # Передаём текст и ид пользователя
     my $req=$self->ua->get($url);
