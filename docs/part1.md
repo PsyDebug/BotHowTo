@@ -530,7 +530,6 @@ ExecReload=/usr/local/bin/hypnotoad <путь к воркдир бота>script/
 
 [Install]
 WantedBy=multi-user.target
-
 </pre>
 
 Выполним команду 
