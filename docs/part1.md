@@ -545,3 +545,4 @@ WantedBy=multi-user.target
 
 и для остановки `service telebot stop`.
 
+Весь код доступен тут https://github.com/PsyDebug/BotHowTo
