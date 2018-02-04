@@ -508,7 +508,7 @@ Morbo не задумывался как полноценный сервер д�
 
 `# vim /etc/systemd/system/telebot.service`
 
-<pre>
+```
 [Unit]
 Description=TeleBot
 After=network.target
@@ -530,7 +530,7 @@ ExecReload=/usr/local/bin/hypnotoad <путь к воркдир бота>script/
 
 [Install]
 WantedBy=multi-user.target
-</pre>
+```
 
 Выполним команду 
 
